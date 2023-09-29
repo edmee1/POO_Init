@@ -1,0 +1,21 @@
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\TestProjet.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\TestProjet.pdb
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Projet final.exe
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Projet final.pdb
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Projet final.exe.config
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\obj\Debug\TestProjet.csprojAssemblyReference.cache
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\obj\Debug\TestProjet.csproj.CoreCompileInputs.cache
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\obj\Debug\TestProjet.csproj.CopyComplete
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\obj\Debug\TestProjet.dll
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\obj\Debug\TestProjet.pdb
+C:\Users\edmee\Documents\ESILV\Année 2\Algo\Projet final\TestProjet\bin\Debug\Projet final.xml

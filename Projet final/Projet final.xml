@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projet final</name>
+    </assembly>
+    <members>
+        <member name="T:Projet_final.Dictionnaire">
+            <summary>
+            Permet d'associer les mots du dictionnaire avec leur longueur et leur langue.
+            </summary>
+        </member>
+        <member name="F:Projet_final.Dictionnaire.Mots">
+            <summary>
+            Dictionary qui associe une liste de mots de la même longueur avec leur longueur. La clé est la longueur et la valeur la liste.
+            </summary>
+        </member>
+        <member name="M:Projet_final.Dictionnaire.#ctor(System.String)">
+            <summary>
+            Constructeur du dictionnaire
+            </summary>
+        </member>
+        <member name="M:Projet_final.Dictionnaire.ToString">
+            <summary>
+            Décrit le dictionnaire (nombre de mots par longueur du mot)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Projet_final.Dictionnaire.RechDichoRecursif(System.String)">
+            <summary>
+            Recherche si un mot entré en paramètre appartient au dictionnaire
+            </summary>
+            <param name="mot"></param>
+            <returns>True si le mot appartient bien au dictionnaire, False sinon.</returns>
+        </member>
+        <member name="M:Projet_final.Dictionnaire.RechDichoRecursif2(System.String,System.Int32,System.Int32)">
+            <summary>
+            Recherche si un mot entré en paramètre appartient au dictionnaire de façon dicotomique en utilisant une méthode récursive.
+            </summary>
+            <param name="mot"></param>
+            <param name="debut"></param>
+            <param name="fin"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Projet_final.De">
+            <summary>
+            Permet de créer un dé défini par un numéro, 6 faces, et une face supérieur.
+            </summary>
+        </member>
+        <member name="M:Projet_final.De.#ctor(System.Int32)">
+            <summary>
+            Constructeur du dé
+            </summary>
+            <param name="num">Numéro du dé</param>
+        </member>
+        <member name="P:Projet_final.De.FaceSup">
+            <summary>
+            Propriété de la face supérieur du dé
+            </summary>
+        </member>
+        <member name="M:Projet_final.De.Lance(System.Int32)">
+            <summary>
+            Détermine la face supérieur du dé.
+            </summary>
+            <param name="numface">Entier choisit aléatoirement dans le main entre et 5 qui correspond au numéro de la face supérieur</param>
+        </member>
+        <member name="M:Projet_final.De.ToString">
+            <summary>
+            Permet d'afficher les caracteristiques du dé (son numéro, ses faces et sa face supérieur)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Projet_final.Joueur">
+            <summary>
+            Class permetant de créer un joueur, définit par son nom, son score et ses mots trouvés.
+            </summary>
+        </member>
+        <member name="M:Projet_final.Joueur.#ctor(System.String)">
+            <summary>
+            Constructeur de la class Joueur
+            </summary>
+            <param name="nom">Nom du joueur</param>
+        </member>
+        <member name="P:Projet_final.Joueur.Nom">
+            <summary>
+            Propriéte du nom du joueur
+            </summary>
+        </member>
+        <member name="P:Projet_final.Joueur.Score">
+            <summary>
+            Propriéte du score du joueur
+            </summary>
+        </member>
+        <member name="P:Projet_final.Joueur.Listmots">
+            <summary>
+            Propriétés de la liste de mots déjà joué par le joueur.
+            </summary>
+        </member>
+        <member name="M:Projet_final.Joueur.Contain(System.String)">
+            <summary>
+            Verifie si un mot rentré en paramètre appartient à la liste des mots du joueur
+            </summary>
+            <param name="mot"></param>
+            <returns> Truee si le mot appartient à la liste, et False sinon</returns>
+        </member>
+        <member name="M:Projet_final.Joueur.Add_Mot(System.String)">
+            <summary>
+            Permet d'ajouter à la liste des mots du joueur le mot entré en paramètre
+            </summary>
+            <param name="mot"></param>
+        </member>
+        <member name="M:Projet_final.Joueur.Contains_ToString">
+            <summary>
+            Permet d'afficher la liste des mots du joueur
+            </summary>
+            <returns>Un string contenant les mots de la liste</returns>
+        </member>
+        <member name="M:Projet_final.Joueur.ToString">
+            <summary>
+            Décrit le joueur (son score, son nom et sa liste de mots
+            </summary>
+            <returns>Un string contenant la déscription du joueur</returns>
+        </member>
+        <member name="T:Projet_final.Plateau">
+            <summary>
+            Class permetant de créer un plateau défini par 16 dés et leur face supérieur.
+            </summary>
+        </member>
+        <member name="F:Projet_final.Plateau.face">
+            <summary>
+            Faces supérieur des dés sous forme de liste
+            </summary>
+        </member>
+        <member name="F:Projet_final.Plateau.tabface">
+            <summary>
+            Faces supérieur des dés sous forme d'une matrice 4*4
+            </summary>
+        </member>
+        <member name="M:Projet_final.Plateau.ToString">
+            <summary>
+            Permet d'afficher le plateau sous forme 4*4
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Projet_final.Plateau.Test_Plateau4(System.String)">
+            <summary>
+            Teste si le mot passé en paramètre respecte la contrainte d’adjacence.
+            </summary>
+            <param name="mot">Mot testé</param>
+            <returns>True si le mot respect les contraintes d'adjacence, false sinon</returns>
+        </member>
+        <member name="M:Projet_final.Program.PointAttribué(System.String,Projet_final.Joueur)">
+            <summary>
+            Attribue un nombre de point au joueur en fonction de la taille du mot entré, et rajoute ses points au score du joueur.
+            </summary>
+            <param name="mot">Mot inscrit par le joueur</param>
+            <param name="joueur">Joueur</param>
+        </member>
+    </members>
+</doc>
